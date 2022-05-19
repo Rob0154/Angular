@@ -1,277 +1,292 @@
-
-.navSide {
-    border: 1px solid #11493E;
-    width: 20%;
-    height: 700px;
-    background-color: #11493E;
-}
-
-.navBarTop {
-    border-bottom: 3px solid rgb(148, 148, 148);
-    height: 50px;
-    width: 100%;
-    display: flex;
-}
-
-.navLogo {
-    border: none;
-    height: 50px;
-    width: 40%;
-    background-image: url('BRAIN.png');
-    background-size: 55px;
-    background-repeat: no-repeat;
-    background-position-y: 9px;
-}
-
-.navText {
-    border: none;
-    height: 50px;
-    width: 100%;
-    color: white;
-    font-weight: bold;
-    line-height: 50px;
-    font-size: 25px;
-    text-align: center;
-}
-
-.navBarAllLogoAndText {
-    border: 1px solid #11493E;
-    height: 400px;
-}
-
-.logoAndText {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 100%;
-    display: flex;
-}
-
-.logo1 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 30%;
+                                .navSide {
+                                    border: 1px solid #11493E;
+                                    width: 20%;
+                                    height: 700px;
+                                    background-color: #11493E;
+                                }
+                                
+                                .navBarTop {
+                                    border-bottom: 3px solid rgb(148, 148, 148);
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                }
+                                
+                                .navLogo {
+                                    border: none;
+                                    height: 50px;
+                                    width: 40%;
+                                    background-image: url('BRAIN.png');
+                                    background-size: 55px;
+                                    background-repeat: no-repeat;
+                                    background-position-y: 9px;
+                                }
+                                
+                                .navText {
+                                    border: none;
+                                    height: 50px;
+                                    width: 100%;
+                                    color: white;
+                                    font-weight: bold;
+                                    line-height: 50px;
+                                    font-size: 25px;
+                                    text-align: center;
+                                }
+                                
+                                .navBarAllLogoAndText {
+                                    border: 1px solid #11493E;
+                                    height: 400px;
+                                }
+                                
+                                .logoAndText {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                
+                                .logo1 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 30%;
+                                    /*
     background-image: url('menu1.png');
     background-repeat: no-repeat;
     background-size: 25px;
     background-position-x: 10px;
     background-position-y: 10px;
-}
-
-.text1 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 100%;
-    color: white;
-    font-size: 18px;
-    line-height: 45px;
-    letter-spacing: 2px;
-    font-family:sans-serif;
-    font-style: normal;
-}
-
-.logo2 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 30%;
-    background-image: url('statistics1.png');
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position-x: 10px;
-    background-position-y: 10px;
-}
-
-.text2 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 100%;
-    color: white;
-    font-size: 18px;
-    line-height: 45px;
-    letter-spacing: 2px;
-    font-family:sans-serif;
-    font-style: normal;
-}
-
-.logo3 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 30%;
-    background-image: url('money1.png');
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position-x: 10px;
-    background-position-y: 10px;
-}
-
-.text3 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 100%;
-    color: white;
-    font-size: 18px;
-    line-height: 45px;
-    letter-spacing: 2px;
-    font-family:sans-serif;
-    font-style: normal;
-}
-
-.logo4 {
-    border: 1px solid #11493E;
-    width: 30%;
-    background-image: url('project1.png');
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position-x: 10px;
-    background-position-y: 10px;
-}
-
-.text4 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 100%;
-    color: white;
-    font-size: 18px;
-    line-height: 45px;
-    letter-spacing: 2px;
-    font-family:sans-serif;
-    font-style: normal;
-}
-
-.logo5 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 30%;
-    background-image: url('Group.png');
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position-x: 10px;
-    background-position-y: 10px;
-}
-
-.text5 {
-    border: 1px solid #11493E;
-    height: 50px;
-    width: 100%;
-    color: white;
-    font-size: 18px;
-    line-height: 45px;
-    font-family:sans-serif;
-    font-style: normal;
-}
-
-.fout {
-    border-top: 3px solid rgb(238, 255, 0);
-    height: 245px;
-    width: 100%;
-    padding: 1px;
-}
-
-.settings {
-    border: none;
-    width: 90%;
-    height: 50px;
-    float: right;
-    border-radius: 30px 0px 0px 30px;
-    background-color: #fafafa;
-    opacity: 0.4;
-    display: flex;
-    margin-top: 15px;
-}
-
-.logoSet {
-    border: none;
-    height: 60px;
-    width: 30%;
-    border-radius: 30px 0px 0px 30px;
-    background-image: url('seting.png');
-    background-repeat: no-repeat;
-    background-size: 40px;
-    background-position-x: 20px;
-    background-position-y: 5px;
-}
-
-.textSet {
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    letter-spacing: 3px;
-    line-height: 45px;
-   
-}
-
-.expenseLaT {
-    border-bottom: 3px solid rgb(148, 148, 148);
-    width: 70%;
-    height: 50px;
-    float: right;
-    display: flex;
-}
-
-.expenseLogo {
-    border: none;
-    width: 20%;
-    height: 50px;
-    background-image: url('money1.png');
-    background-repeat: no-repeat;
-    background-size: 28px;
-    background-position-x: 5px;
-    background-position-y: 10px;
-}
-
-.expenseText {
-    color: white;
-    line-height: 50px;
-    letter-spacing: 1px;
-    font-family:sans-serif;
-}
-
-.recurringLaT {
-    border-bottom: none;
-    width: 70%;
-    height: 50px;
-    float: right;
-    display: flex;
-}
-
-.recurringLogo {
-    border: none;
-    width: 20%;
-    height: 50px;
-    background-image: url('money1.png');
-    background-repeat: no-repeat;
-    background-size: 28px;
-    background-position-x: 5px;
-    background-position-y: 10px;
-}
-
-.recurringText {
-    color: white;
-    line-height: 50px;
-    letter-spacing: 1px;
-    font-family:sans-serif;
-}
-
-.expenseLaTAnother {
-    border-bottom: none;
-    width: 95%;
-    height: 50px;
-    float: right;
-    display: flex;
-}
-
-.expenseLogoAnother {
-    border: none;
-    width: 20%;
-    height: 50px;
-    background-image: url('webglob.png');
-    background-repeat: no-repeat;
-    background-size: 28px;
-    background-position-x: 5px;
-    background-position-y: 10px;
-}
-
-.expenseTextAnother {
-    color: white;
-    line-height: 50px;
-    letter-spacing: 1px;
-    font-family:sans-serif;
-}
+    */
+                                }
+                                
+                                .text1 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 100%;
+                                    color: white;
+                                    font-size: 18px;
+                                    line-height: 45px;
+                                    letter-spacing: 2px;
+                                    font-family: sans-serif;
+                                    font-style: normal;
+                                }
+                                
+                                .logo2 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 30%;
+                                    /*
+        background-image: url('statistics1.png');
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position-x: 10px;
+        background-position-y: 10px;
+        */
+                                }
+                                
+                                .text2 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 100%;
+                                    color: white;
+                                    font-size: 18px;
+                                    line-height: 45px;
+                                    letter-spacing: 2px;
+                                    font-family: sans-serif;
+                                    font-style: normal;
+                                }
+                                
+                                .logo3 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 30%;
+                                    /*
+            background-image: url('money1.png');
+            background-repeat: no-repeat;
+            background-size: 25px;
+            background-position-x: 10px;
+            background-position-y: 10px;
+            */
+                                }
+                                
+                                .text3 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 100%;
+                                    color: white;
+                                    font-size: 18px;
+                                    line-height: 45px;
+                                    letter-spacing: 2px;
+                                    font-family: sans-serif;
+                                    font-style: normal;
+                                }
+                                
+                                .logo4 {
+                                    border: 1px solid #11493E;
+                                    width: 30%;
+                                    /*
+                background-image: url('project1.png');
+                background-repeat: no-repeat;
+                background-size: 25px;
+                background-position-x: 10px;
+                background-position-y: 10px;
+                */
+                                }
+                                
+                                .text4 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 100%;
+                                    color: white;
+                                    font-size: 18px;
+                                    line-height: 45px;
+                                    letter-spacing: 2px;
+                                    font-family: sans-serif;
+                                    font-style: normal;
+                                }
+                                
+                                .logo5 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 30%;
+                                    /*
+                    background-image: url('Group.png');
+                    background-repeat: no-repeat;
+                    background-size: 25px;
+                    background-position-x: 10px;
+                    background-position-y: 10px;
+                    */
+                                }
+                                
+                                .text5 {
+                                    border: 1px solid #11493E;
+                                    height: 50px;
+                                    width: 100%;
+                                    color: white;
+                                    font-size: 18px;
+                                    line-height: 45px;
+                                    font-family: sans-serif;
+                                    font-style: normal;
+                                }
+                                
+                                .fout {
+                                    border-top: 3px solid rgb(238, 255, 0);
+                                    height: 245px;
+                                    width: 100%;
+                                    padding: 1px;
+                                }
+                                
+                                .settings {
+                                    border: none;
+                                    width: 90%;
+                                    height: 50px;
+                                    float: right;
+                                    border-radius: 30px 0px 0px 30px;
+                                    background-color: #fafafa;
+                                    opacity: 0.4;
+                                    display: flex;
+                                    margin-top: 15px;
+                                }
+                                
+                                .logoSet {
+                                    border: none;
+                                    height: 60px;
+                                    width: 30%;
+                                    border-radius: 30px 0px 0px 30px;
+                                    background-image: url('seting.png');
+                                    background-repeat: no-repeat;
+                                    background-size: 40px;
+                                    background-position-x: 20px;
+                                    background-position-y: 5px;
+                                }
+                                
+                                .textSet {
+                                    color: rgb(0, 0, 0);
+                                    font-size: 25px;
+                                    letter-spacing: 3px;
+                                    line-height: 45px;
+                                }
+                                
+                                .expenseLaT {
+                                    border-bottom: 3px solid rgb(148, 148, 148);
+                                    width: 83%;
+                                    height: 50px;
+                                    float: right;
+                                    display: flex;
+                                }
+                                
+                                .expenseLogo {
+                                    border: none;
+                                    width: 20%;
+                                    height: 50px;
+                                    /*
+                        background-image: url('money1.png');
+                        background-repeat: no-repeat;
+                        background-size: 28px;
+                        background-position-x: 5px;
+                        background-position-y: 10px;
+                        */
+                                }
+                                
+                                .expenseText {
+                                    color: white;
+                                    line-height: 50px;
+                                    letter-spacing: 1px;
+                                    font-family: sans-serif;
+                                }
+                                
+                                .recurringLaT {
+                                    border-bottom: none;
+                                    width: 83%;
+                                    height: 50px;
+                                    float: right;
+                                    display: flex;
+                                }
+                                
+                                .recurringLogo {
+                                    border: none;
+                                    width: 20%;
+                                    height: 50px;
+                                    /*
+                            background-image: url('money1.png');
+                            background-repeat: no-repeat;
+                            background-size: 28px;
+                            background-position-x: 5px;
+                            background-position-y: 10px;
+                            */
+                                }
+                                
+                                .recurringText {
+                                    color: white;
+                                    line-height: 50px;
+                                    letter-spacing: 1px;
+                                    font-family: sans-serif;
+                                }
+                                
+                                .expenseLaTAnother {
+                                    border-bottom: none;
+                                    width: 95%;
+                                    height: 50px;
+                                    float: right;
+                                    display: flex;
+                                }
+                                
+                                .expenseLogoAnother {
+                                    border: none;
+                                    width: 20%;
+                                    height: 50px;
+                                    /*
+                                background-image: url('webglob.png');
+                                background-repeat: no-repeat;
+                                background-size: 28px;
+                                background-position-x: 5px;
+                                background-position-y: 10px;
+                                */
+                                }
+                                
+                                .expenseTextAnother {
+                                    color: white;
+                                    line-height: 50px;
+                                    letter-spacing: 1px;
+                                    font-family: sans-serif;
+                                }

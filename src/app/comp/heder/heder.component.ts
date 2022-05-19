@@ -8,6 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class HederComponent implements OnInit {
 
   constructor() { }
+public name = 'John';
+public lastName = 'Fox';
+
+public user ={
+  firstName: 'DEN',
+  lastName: ' Marcbely',
+  img: 'free.png'
+}
 
   ngOnInit(): void {
   }
