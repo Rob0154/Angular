@@ -1,0 +1,40 @@
+.heder {
+    position: absolute;
+    border: 1px solid rgb(206, 206, 206);
+    width: 79%;
+    height: 50px;
+    left: 277px;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+}
+
+.logo {
+    border: none;
+    width: 5%;
+    height: 50px;
+    background-image: url('Vector.png');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position-x: 10px;
+    background-position-y: 10px;
+}
+
+.text {
+    border: none;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    line-height: 45px;
+    font-family:sans-serif;
+}
+
+.avaLogo {
+    border: none;
+    width: 10%;
+    height: 50px;
+    margin-left: auto;
+    order: 2;
+    background-image: url('free.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+}

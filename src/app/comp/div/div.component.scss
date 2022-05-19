@@ -1,0 +1,76 @@
+.userListPro{
+    border:none;
+    height: 500px;
+    width: 77%;
+    position: absolute;
+    margin: 6%;
+    left: 16%;
+    box-shadow: 0px 0px  10px black;
+}
+.addAndSerch{
+    border: none;
+    height: 50px;
+    width: 100%;
+   
+}
+.add{
+    border:none;
+    height: 40px;
+    width: 4%;
+    float: right;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #347474;
+    background-image: url('Group2.png');
+    background-position-x: -2px;
+    background-position-y: -1px;
+    
+}
+.serch{
+    border:none;
+    height: 40px;
+    width: 4%;
+    float: right;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #347474;
+    background-image: url('Group1.png');
+    background-position-x: -2px;
+    background-position-y: -1px;
+}
+.allAbout{
+    border:none;
+    height: 400px;
+    width: 100%;
+}
+.allAboutDiv{
+    border: none;
+    height: 88px;
+    width: 100%;
+    display: flex;
+}
+.about1{
+    border:none;
+    width: 20%;
+    height: 50px;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #686868;
+    line-height: 45px;
+    background-color: #E1EEEE; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px black;
+}
+.aboutLogo{
+    border: none;
+    width: 5%;
+    height: 50px;
+    float: right;
+    background-image: url("Group3.png");
+    background-repeat: no-repeat;
+    background-size: 5px;
+}
+.spText{
+    margin: 10px;
+}
